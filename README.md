@@ -1,8 +1,9 @@
 ## Accessing AWS Secret Manager's data from microservices deployed on kubernetes cluster.
 
 ### step 1: Create a secret in AWS secret manager.
- 
-        
+    
+       ![aws secret manager data.]
+       (https://github.com/manishk1001/kube_csi-driver/blob/main/Screenshots/1.png)
 
 
 ### step 2: Create the policy and IAM rule for accessing the secret in secret manager and downloading the ACCESS_KEYS
