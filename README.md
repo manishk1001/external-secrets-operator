@@ -1,4 +1,4 @@
-## Accessing AWS Secrets Manager's data from microservices deployed on Kubernetes cluster using External Secrets Operator.
+## Managing Kubernetes secrets with AWS Secrets Manager using External Secrets Operator.
 
 ### step 1: Create a secret in AWS Secrets Manager.
 ![2](https://user-images.githubusercontent.com/61675371/226323040-327cdbe6-3ed6-4c92-87eb-9b62b3840a3d.png)
