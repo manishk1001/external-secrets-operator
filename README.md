@@ -3,7 +3,7 @@
 ### step 1: Create a secret in AWS Secrets Manager.
 ![2](https://user-images.githubusercontent.com/61675371/226323040-327cdbe6-3ed6-4c92-87eb-9b62b3840a3d.png)
 
-### step 2: Create the policy and IAM role for accessing the secret in Secrets Manager and downloading the ACCESS_KEYS
+### step 2: Create the policy and IAM user for accessing the secret in Secrets Manager and downloading the ACCESS_KEYS
 ![3](https://user-images.githubusercontent.com/61675371/226323183-69d9bc6b-4681-46d9-bb75-08e1e4e55be8.png)
 
 ### Step 3: Storing Access key and secret access key in Kubernetes secret.
