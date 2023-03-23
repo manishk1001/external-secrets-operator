@@ -31,6 +31,9 @@ Create "kind: ExternalSecret" using external-secret.yaml
 kubernetes secret with the name "my-secret" will automatically be created which will be in sync with the data present in aws secret manager.
 
 ![6](https://user-images.githubusercontent.com/61675371/226324087-d0aa87c3-9faf-4b04-8ac4-7eba672e0b17.png)
-    
-        
-### step 6: Consider the newly created "my-secret" as normal kubernetes secret and pass the "my-secret" data to the required microservice as Environment variable or as Volume.
+   
+          
+### step 6: Consider the newly created "my-secret" as normal kubernetes secret and pass the "my-secret" data to the nginx Deployment (which is created using deploy.yaml) as Volume. 
+![7](https://user-images.githubusercontent.com/61675371/227108930-343f3912-d0a0-4a16-a29d-e74dbbed87d4.png)
+
+# secrets stored with AWS Secrets Manager can be accessed inside the Application container.
